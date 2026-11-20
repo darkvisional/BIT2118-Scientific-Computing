@@ -1,5 +1,4 @@
 """Task 12: Nonlinear Systems - market equilibrium"""
-import numpy as np
 from scipy.optimize import root
 
 
