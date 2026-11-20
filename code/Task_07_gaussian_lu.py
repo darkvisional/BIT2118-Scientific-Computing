@@ -14,6 +14,7 @@ payment_sets = [
     np.array([4950.0, 4750.0, 4550.0])
 ]
 
+# Factor the shared matrix once for all payment vectors.
 lu, piv = lu_factor(A)
 
 for i, b in enumerate(payment_sets, start=1):
@@ -21,3 +22,6 @@ for i, b in enumerate(payment_sets, start=1):
     residual = b - A @ x
     print(f"Month {i} balances: {x}")
     print(f"Residual norm: {np.linalg.norm(residual):.2e}\n")
+
+first_month = np.linalg.solve(A, payment_sets[0])
+print("Month 1 balances from a direct solve:", first_month)
