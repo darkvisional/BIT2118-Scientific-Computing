@@ -42,7 +42,7 @@ python code/Task_02_numpy_arrays.py
 - Christopher Mutunga — BSCCS/2025/56161
 - Eugene Mukaria — BSCCS/2025/51904
 - Frankline Kimutai — BSCCS/2025/48032
-- **[Your name]** — **[Your admission number]** — **[Your contribution]**
+
 
 ## Submission notes
 
