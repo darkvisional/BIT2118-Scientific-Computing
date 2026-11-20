@@ -1,7 +1,8 @@
 # BIT 2118 — Scientific Computing: Financial Calculator
 
-**Collaborators:** Keith Kyule,Maxwell Munene
-**Reg No:** BSCCS/2025/49920
+**Collaborators:**
+Keith Kyule - BSCCS/2025/49920
+Maxwell Munene - BSCCS/2025/51289
 **Unit:** BIT 2118 — Scientific Computing
 **Group Work:** Tasks 2–20 + Integrated Project (Weeks 11–13)
 
