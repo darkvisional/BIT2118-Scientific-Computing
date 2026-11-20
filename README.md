@@ -46,4 +46,4 @@ python code/Task_02_numpy_arrays.py
 
 ## Submission notes
 
-The assignment lists *Data Science Essentials with Python* as a prerequisite. Each student submits their own GitHub repository link and documentation through VLMS.
+The assignment lists *Data Science Essentials with Python* as a prerequisite. 
