@@ -1,9 +1,10 @@
 # BIT 2118 — Scientific Computing: Financial Calculator
-
-**Collaborators:** wallcot Isack-BSCCS/2025/48040
+**Collaborators:** 
+Wallcot Isack-BSCCS/2025/48040
 Keith Kyule - BSCCS/2025/49920
 Maxwell Munene - BSCCS/2025/51289
 Enock Orenge - BSCCS/2025/55142
+Christopher Mutunga - BSCCS/2025/56161 
 Eugene Mukaria - BSCCS/2025/51904
 Frankline Kimutai-BSCCS/2025/48032
 **Unit:** BIT 2118 — Scientific Computing
