@@ -1,95 +1,47 @@
-# BIT 2118 — Scientific Computing: Financial Calculator
-**Collaborators:** 
-Wallcot Isack-BSCCS/2025/48040
-Keith Kyule - BSCCS/2025/49920
-Maxwell Munene - BSCCS/2025/51289
-Enock Orenge - BSCCS/2025/55142
-Christopher Mutunga - BSCCS/2025/56161 
-Eugene Mukaria - BSCCS/2025/51904
-Frankline Kimutai-BSCCS/2025/48032
-**Unit:** BIT 2118 — Scientific Computing
-**Group Work:** Tasks 2–20 + Integrated Project (Weeks 11–13)
+# BIT 2118 Scientific Computing — Financial Calculator
 
----
+This project applies scientific computing methods to sample financial problems. It includes 19 standalone Python scripts for Tasks 2–20 and a menu-driven calculator that runs the same analyses.
 
-## Overview
+## Objectives
 
-Individual submission for the BIT 2118 Scientific Computing group work.
-Each task (2–20) lives in its own file under `code/` and applies one
-numerical method to a financial problem. The integrated project — a
-menu-driven **Financial Calculator** — combines 16 of the tasks into one
-application.
+- Apply numerical methods to financial examples such as loan repayment, portfolio allocation, and investment risk.
+- Compare methods using residuals, error estimates, timings, or plots where appropriate.
+- Change inputs and explain how the results respond.
 
-Section B/C/D documentation for each task (inputs, parameter changes,
-output interpretation) is in [`docs/task_notes.md`](docs/task_notes.md).
+## What the calculator covers
 
----
+The menu includes balance summaries, precision checks, linear systems, break-even and loan interest calculations, price interpolation, revenue forecasting, loan amortization, and investment loss simulation. Some analyses also show plots.
 
-## Repository Structure
-BIT2118-Scientific-Computing/
-├── README.md
-├── code/
-│ ├── Task_02_numpy_arrays.py
-│ ├── Task_03_vectorization.py
-│ ├── Task_04_numerical_errors.py
-│ ├── Task_05_matrix_algebra.py
-│ ├── Task_06_linear_systems.py
-│ ├── Task_07_gaussian_lu.py
-│ ├── Task_08_iterative_linear.py
-│ ├── Task_09_eigenvalues.py
-│ ├── Task_10_bisection_fixed_point.py
-│ ├── Task_11_newton_secant.py
-│ ├── Task_12_nonlinear_equations.py
-│ ├── Task_13_interpolation.py
-│ ├── Task_14_curve_fitting.py
-│ ├── Task_15_numerical_differentiation.py
-│ ├── Task_16_numerical_integration.py
-│ ├── Task_17_euler_ode.py
-│ ├── Task_18_scipy_ode.py
-│ ├── Task_19_optimization.py
-│ ├── Task_20_monte_carlo.py
-│ └── Project_Financial_Calculator.py
-└── docs/
-└── task_notes.md
+The [task notes](docs/task_notes.md) explain the inputs, methods, sample results, and a parameter change to try for every task.
 
-text
+## Setup and run
 
----
-
-## Requirements
+The project uses Python 3, NumPy, SciPy, and Matplotlib. From the repository root, install the libraries and launch the calculator.
 
 ```bash
-pip install numpy scipy matplotlib
-Python 3.9+ recommended. NumPy 2.0+ assumed (np.trapezoid); a
-np.trapz fallback is included.
+python3 -m pip install numpy scipy matplotlib
+python3 code/Project_Financial_Calculator.py
+```
 
-How to Run the Project
-bash
-python code/Project_Financial_Calculator.py
-A menu appears. Pick an analysis (1–16). Plots open in a Matplotlib
-window — close them to return to the menu. Type 0 to exit.
+If your system uses `python` for Python 3, use that command instead. Select a menu option from 1 to 19. Close any plot window to return to the menu, or enter 0 to exit.
 
-How to Run an Individual Task
-bash
-python code/Task_02_numpy_arrays.py
-Task → Project Mapping
-#	Concept	Financial Application
-2	NumPy arrays	Monthly balance summary
-3	Vectorization	1M price-change returns
-4	Floating-point errors	360-payment precision
-5	Matrix algebra	Portfolio rebalancing
-6	Linear systems	Revenue stream allocation
-7	LU decomposition	Loan balance per month
-8	Iterative (Jacobi)	Linked investment returns
-9	Eigenvalues	Bank systemic risk
-10	Bisection	Break-even volume
-11	Newton / Secant	Loan IRR
-12	Nonlinear systems	Market equilibrium
-13	Interpolation	Intraday stock prices
-14	Curve fitting	Revenue forecast
-15	Differentiation	Price momentum
-16	Integration	Total interest earned
-17	Euler ODE	Loan amortization
-18	solve_ivp ODE	Compound growth
-19	Optimization	Portfolio allocation
-20	Monte Carlo	Investment loss risk
+To run a single task, use its script in the `code/` folder. For example, this command runs the monthly balance summary.
+
+```bash
+python3 code/Task_02_numpy_arrays.py
+```
+
+## Group members and contributions
+
+- Wallcot Isack — BSCCS/2025/48040
+- Keith Kyule — BSCCS/2025/49920 — credited as the author of the original integrated calculator
+- Maxwell Munene — BSCCS/2025/51289
+- Enock Orenge — BSCCS/2025/55142
+- Christopher Mutunga — BSCCS/2025/56161
+- Eugene Mukaria — BSCCS/2025/51904
+- Frankline Kimutai — BSCCS/2025/48032
+- **[Your name]** — **[Your admission number]** — **[Your contribution]**
+
+## Submission notes
+
+The assignment lists *Data Science Essentials with Python* as a prerequisite. Each student submits their own GitHub repository link and documentation through VLMS.
