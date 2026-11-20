@@ -1,6 +1,6 @@
 # BIT 2118 — Scientific Computing: Financial Calculator
 
-**Author:** Keith Kyule
+**Collaborators:** Keith Kyule
 **Reg No:** BSCCS/2025/49920
 **Unit:** BIT 2118 — Scientific Computing
 **Group Work:** Tasks 2–20 + Integrated Project (Weeks 11–13)
