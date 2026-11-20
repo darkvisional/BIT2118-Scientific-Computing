@@ -38,6 +38,7 @@ python code/Task_02_numpy_arrays.py
 - Wallcot Isack — BSCCS/2025/48040
 - Keith Kyule — BSCCS/2025/49920 
 - Maxwell Munene — BSCCS/2025/51289
+- Jorbat Collins — BSCCS/2025/53345
 - Enock Orenge — BSCCS/2025/55142
 - Christopher Mutunga — BSCCS/2025/56161
 - Eugene Mukaria — BSCCS/2025/51904
