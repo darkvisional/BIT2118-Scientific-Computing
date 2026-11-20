@@ -13,9 +13,10 @@ rebalance = np.array([
     [0.00, 0.00, 1.00]
 ])
 
+# Each row of the rebalance matrix splits one asset across the new holdings.
 rebalanced = portfolio @ rebalance
 
 print("Original portfolio (KES millions):\n", portfolio)
 print("\nRebalanced portfolio (KES millions):\n", rebalanced)
 print("\nDeterminant of rebalance matrix:", np.linalg.det(rebalance))
-print("Total value preserved:", np.isclose(portfolio.sum(), rebalanced.sum()))
+print("Value preserved for each portfolio:", np.allclose(portfolio.sum(axis=1), rebalanced.sum(axis=1)))
