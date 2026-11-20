@@ -16,19 +16,21 @@ The [task notes](docs/task_notes.md) explain the inputs, methods, sample results
 
 ## Setup and run
 
-The project uses Python 3, NumPy, SciPy, and Matplotlib. From the repository root, install the libraries and launch the calculator.
+The project uses Python 3, NumPy, SciPy, and Matplotlib. From the repository root, create a virtual environment, install the libraries, and launch the calculator.
 
 ```bash
-python3 -m pip install numpy scipy matplotlib
-python3 code/Project_Financial_Calculator.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install numpy scipy matplotlib
+python code/Project_Financial_Calculator.py
 ```
 
-If your system uses `python` for Python 3, use that command instead. Select a menu option from 1 to 19. Close any plot window to return to the menu, or enter 0 to exit.
+On Windows, create the environment with `py -m venv .venv` and activate it in PowerShell with `.\.venv\Scripts\Activate.ps1`. Select a menu option from 1 to 19. Close any plot window to return to the menu, or enter 0 to exit.
 
 To run a single task, use its script in the `code/` folder. For example, this command runs the monthly balance summary.
 
 ```bash
-python3 code/Task_02_numpy_arrays.py
+python code/Task_02_numpy_arrays.py
 ```
 
 ## Group members and contributions
