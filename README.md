@@ -3,6 +3,7 @@
 **Collaborators:**
 Keith Kyule - BSCCS/2025/49920
 Maxwell Munene - BSCCS/2025/51289
+Enock Orenge - BSCCS/2025/55142
 **Unit:** BIT 2118 — Scientific Computing
 **Group Work:** Tasks 2–20 + Integrated Project (Weeks 11–13)
 
