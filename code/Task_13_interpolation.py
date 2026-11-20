@@ -9,7 +9,8 @@ prices = np.array([102.0, 105.5, 103.0, 107.5, 110.0, 108.5, 112.0])
 linear = interp1d(hours, prices, kind="linear")
 cubic = CubicSpline(hours, prices)
 
-fine = np.arange(9, 15 + 1/6, 1/6)
+# Include both endpoints without stepping beyond the measured hours.
+fine = np.linspace(hours[0], hours[-1], 6 * (len(hours) - 1) + 1)
 
 print(f"Linear @ 11:30: KES {float(linear(11.5)):.2f}")
 print(f"Cubic  @ 11:30: KES {float(cubic(11.5)):.2f}")
