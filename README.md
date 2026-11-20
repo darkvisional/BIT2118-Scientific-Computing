@@ -5,6 +5,7 @@ Keith Kyule - BSCCS/2025/49920
 Maxwell Munene - BSCCS/2025/51289
 Enock Orenge - BSCCS/2025/55142
 Eugene Mukaria - BSCCS/2025/51904
+Frankline Kimutai-BSCCS/2025/48032
 **Unit:** BIT 2118 — Scientific Computing
 **Group Work:** Tasks 2–20 + Integrated Project (Weeks 11–13)
 
