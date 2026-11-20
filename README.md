@@ -36,7 +36,7 @@ python code/Task_02_numpy_arrays.py
 ## Group members and contributions
 
 - Wallcot Isack — BSCCS/2025/48040
-- Keith Kyule — BSCCS/2025/49920 — credited as the author of the original integrated calculator
+- Keith Kyule — BSCCS/2025/49920 
 - Maxwell Munene — BSCCS/2025/51289
 - Enock Orenge — BSCCS/2025/55142
 - Christopher Mutunga — BSCCS/2025/56161
