@@ -1,22 +1,28 @@
 """Task 05: Matrix Algebra - Portfolio rebalancing"""
 import numpy as np
 
-portfolio = np.array([
-    [5.0, 3.0, 2.0],
-    [4.5, 3.5, 2.0],
-    [6.0, 2.5, 1.5]
-])
 
-rebalance = np.array([
-    [0.90, 0.10, 0.00],
-    [0.05, 0.95, 0.00],
-    [0.00, 0.00, 1.00]
-])
+def main():
+    portfolio = np.array([
+        [5.0, 3.0, 2.0],
+        [4.5, 3.5, 2.0],
+        [6.0, 2.5, 1.5]
+    ])
 
-# Each row of the rebalance matrix splits one asset across the new holdings.
-rebalanced = portfolio @ rebalance
+    rebalance = np.array([
+        [0.90, 0.10, 0.00],
+        [0.05, 0.95, 0.00],
+        [0.00, 0.00, 1.00]
+    ])
 
-print("Original portfolio (KES millions):\n", portfolio)
-print("\nRebalanced portfolio (KES millions):\n", rebalanced)
-print("\nDeterminant of rebalance matrix:", np.linalg.det(rebalance))
-print("Value preserved for each portfolio:", np.allclose(portfolio.sum(axis=1), rebalanced.sum(axis=1)))
+    # Each row of the rebalance matrix splits one asset across the new holdings.
+    rebalanced = portfolio @ rebalance
+
+    print("Original portfolio (KES millions):\n", portfolio)
+    print("\nRebalanced portfolio (KES millions):\n", rebalanced)
+    print("\nDeterminant of rebalance matrix:", np.linalg.det(rebalance))
+    print("Value preserved for each portfolio:", np.allclose(portfolio.sum(axis=1), rebalanced.sum(axis=1)))
+
+
+if __name__ == "__main__":
+    main()
